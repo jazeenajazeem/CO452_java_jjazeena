@@ -17,7 +17,7 @@ public class Week1
         System.out.println();
 
         String name = InputReader.getString("Enter your name > ");
-        System.out.println("Hello " + name);
-
+        System.out.println("Hello Jazeena");
+        System.out.println("Hello World");
     } 
 }
