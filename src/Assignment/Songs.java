@@ -16,8 +16,8 @@ public class Songs {
      public void print()
      {
         System.out.println("songname"+this.songname);
-        System.out.println("artistname"+this.artistname);
-        System.out.print("playcount"+this.playcount);
+        System.out.println("\tartistname"+this.artistname);
+        System.out.println("\tplaycount"+this.playcount);
      }
         
     }
