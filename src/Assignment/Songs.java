@@ -1,22 +1,22 @@
 package Assignment;
 
-public class Artist {
+public class Songs {
     private String songname;
-    private String Artistname;
+    private String artistname;
     private int playcount;
      
      //constuctor
-     public Artist(String songname, String Artistname, int playcount)
+     public Songs(String songname, String artistname, int playcount)
      {
         this.songname = songname;
-        this.Artistname = Artistname;
+        this.artistname = artistname;
         this.playcount = playcount;
      }
      //print method
      public void print()
      {
-        System.out.println(("songname"+this.songname));
-        System.out.println("Artistname"+this.Artistname);
+        System.out.println("songname"+this.songname);
+        System.out.println("artistname"+this.artistname);
         System.out.print("playcount"+this.playcount);
      }
         
