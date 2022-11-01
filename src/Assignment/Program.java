@@ -42,7 +42,7 @@ Songs Eric=new Songs("Layla", "Eric", 678006540);
 Songs ColdChisel=new Songs("KheSanh", "ColdChisel", 87697630);
 //ColdChisel.print();
 Songs TheDoors=new Songs("LightMyire", "TheDoors", 890766670);
-
+//theDoors.print();
 
 ArrayList<Songs>songs = new ArrayList<Songs>();
 songs.add(lynnAnderson);
@@ -57,15 +57,27 @@ songs.add(lynnAnderson);
    songs.add(ColdChisel);
    songs.add(TheDoors);
 
-   songs.remove(0);
+ 
    for(Songs song:songs)
-{
    
-    song.print();
-    
-}
+  
+   {
+      song.print();
+      String removedStr = song.remove(1);
+   System.out.println(song);
+   System.out.println(removedStr);
 }
 
+
+   
+   }
+
+
+
 }
+
+
+
+
 
     

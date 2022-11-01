@@ -19,6 +19,9 @@ public class Songs {
         System.out.println("\tartistname"+this.artistname);
         System.out.println("\tplaycount"+this.playcount);
      }
+   public String remove(int i) {
+      return null;
+   }
         
     }
 
