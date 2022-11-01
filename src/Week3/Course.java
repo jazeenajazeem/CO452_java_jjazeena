@@ -14,4 +14,9 @@ public Songs remove(String src="songname")
     else
     System.out.println("Could not find song");
 
-    songs.remove(1);
+    
+
+    song.print();
+      String removedStr = song.remove(1);
+   System.out.println(song);
+   System.out.println(removedStr);
