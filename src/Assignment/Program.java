@@ -63,7 +63,7 @@ songs.add(lynnAnderson);
   
  
 
-   public Songs remove(String "songs");
+   public Songs remove(String songname)
    {
     Songs songs = findBysongname(songname);
     if (songs !=null) 
