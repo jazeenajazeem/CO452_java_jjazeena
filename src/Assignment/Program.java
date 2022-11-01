@@ -59,18 +59,39 @@ songs.add(lynnAnderson);
 
  
    for(Songs song:songs)
- 
-  
- { 
    song.print();
-   String removedStr = song.remove(1);
-System.out.println(song);
-System.out.println(removedStr);
-}
+  
+ 
+
+   public Songs remove(String "songs");
+   {
+    Songs songs = findBysongname(songname);
+    if (songs !=null) 
+    songs.remove(songs);
+    else
+    System.out.println("Could not find song");
+   }
+
+
+   public Songs getsSongs (int i) 
+   {
+      if (playcount>500000){
+         return songs[i];
+      
+      }
+      else
+      return null;
+   }
+   
+
+   //String removedStr = song.remove(1);
+//System.out.println(song);
+//System.out.println(removedStr);
+
   
 
+}
    
-   }
 
 
 }
