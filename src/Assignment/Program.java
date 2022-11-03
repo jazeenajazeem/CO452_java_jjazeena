@@ -73,15 +73,20 @@ songs.add(lynnAnderson);
    }
 
 
-   public Songs getsSongs (int i) 
-   {
-      if (playcount>500000){
-         return songs[i];
+   //public Songs getsSongs (int i) 
+   //{
       
-      }
-      else
-      return null;
-   }
+      //for(Songs song:songs);
+   
+     // if song.getsSongs(playcount>500000);
+      //song.print();
+   
+     //else
+     // {
+        // return null;
+     // }
+      
+  // }
    
 
    //String removedStr = song.remove(1);
