@@ -7,18 +7,19 @@ import helpers.*;
 
 public class Program
 {
+   public static ArrayList<Songs> songs;
     public static void main(String[] args)
 
     {
         System.out.println(ConsoleColours.CONSOLE_CLEAR);
 
         System.out.println("==================================");
-        System.out.println("CO452 Programming Concepts 2022/23");
+        System.out.println("Jazeena's Song Lists");
         System.out.println("==================================");
         System.out.println();
-        System.out.println(" Program , Objects, Constructors ");
+        System.out.println(" CO452/2 programming Concepts ");
         System.out.println();
-        System.out.println(" by Nicholas Day and Derek Peacock");
+        System.out.println(" CW1 Assignment");
         System.out.println();
 Songs lynnAnderson = new Songs("RoseGarden", "lynnAnderson", 908765430);
  //lynnanderson.print();
@@ -44,7 +45,8 @@ Songs ColdChisel=new Songs("KheSanh", "ColdChisel", 87697630);
 Songs TheDoors=new Songs("LightMyire", "TheDoors", 890766670);
 //theDoors.print();
 
-ArrayList<Songs>songs = new ArrayList<Songs>();
+songs = new ArrayList<Songs>();
+
 songs.add(lynnAnderson);
    songs.add(EddyArnold);
    songs.add(Asia);
@@ -61,16 +63,9 @@ songs.add(lynnAnderson);
    for(Songs song:songs)
    song.print();
   
- 
+    
 
-   public Songs remove(String songname)
-   {
-    Songs songs = findBysongname(songname);
-    if (songs !=null) 
-    songs.remove(songs);
-    else
-    System.out.println("Could not find song");
-   }
+
 
 
    //public Songs getsSongs (int i) 
@@ -97,7 +92,14 @@ songs.add(lynnAnderson);
 
 }
    
-
+public static Songs remove(String songname)
+{
+ Songs found = FindBY(songname);
+ if (songs !=null) 
+ songs.remove(found);
+ else
+ System.out.println("Could not find song");
+}
 
 }
 
