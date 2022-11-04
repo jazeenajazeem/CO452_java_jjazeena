@@ -69,7 +69,7 @@ songs = new ArrayList<Songs>();
    }
   
    
-   System.out.println("Attempt to remove a song 1 and 6:");
+   System.out.println("Attempt to remove song 1 and 6:");
    songs.remove(1);
    songs.remove(6);
 
