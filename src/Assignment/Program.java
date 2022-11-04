@@ -83,7 +83,6 @@ songs = new ArrayList<Songs>();
    public static void playcount() 
    {
        
-   //int choice = InputReader.getInt("/n select the songs (playcount<1000000)");
       int playcount = 0;
       for(Songs song:songs)
       {
