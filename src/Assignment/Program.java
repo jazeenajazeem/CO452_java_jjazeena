@@ -73,34 +73,26 @@ songs = new ArrayList<Songs>();
    songs.remove(1);
    songs.remove(6);
 
+
    for(Songs song:songs)
    {
    song.print();
    }
-    }
-    
-   public static void playcount() {
-      System.out.println("Print playcount>1000000");  
+
+} 
+   public static void playcount() 
+   {
+       
    //int choice = InputReader.getInt("/n select the songs (playcount<1000000)");
       int playcount = 0;
       for(Songs song:songs)
       {
          if (playcount > 1000000);
-            
-               
-            song.print();
-         playcount++; 
+        
+          song.print();
+          playcount++;    
       }
+   }
+        
+}
   
-
-
-
-
-
-}
-
-
-}
-
-
-    
