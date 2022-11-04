@@ -23,11 +23,11 @@ public class Program
         System.out.println();
         System.out.println(" CW1 Assignment");
         System.out.println();
-Songs lynnAnderson = new Songs("RoseGarden", "lynnAnderson", 8765430);
+Songs lynnAnderson = new Songs("RoseGarden", "lynnAnd", 8765430);
  //lynnanderson.print();
-Songs EddyArnold = new Songs("TheCattleCall", "EddyArnold", 7656540);
+Songs EddyArnold = new Songs("TheCattle", "EddyArnold", 7656540);
  //eddy.print();
- Songs Asia = new Songs("HeartOfTheMoment", "Asia", 7865430);
+Songs Asia = new Songs("HeartOfThe", "Asia", 7865430);
 //asia.print();
 Songs Ateens = new Songs("UpsideDown", "Ateens", 9765430);
 //ateens.print();
@@ -38,13 +38,13 @@ Songs BikiniKill = new Songs("RebelGirl", "BikiniKill", 865430);
 
 Songs Mariah = new Songs("Hero", "Mariah", 876540);
    //mariah.print();
-   Songs Ray= new Songs("WhatsISay", "Ray", 8764000);
+Songs Ray = new Songs("WhatsISay", "Ray  ", 8764000);
 //ray.print();
-Songs Eric=new Songs("Layla", "Eric", 8006540);
+Songs Eric = new Songs("Layla", "Eric", 8006540);
 //Eric.print();
-Songs ColdChisel=new Songs("KheSanh", "ColdChisel", 7697630);
+Songs ColdChisel = new Songs("KheSanh", "ColdChisel", 7697630);
 //ColdChisel.print();
-Songs TheDoors=new Songs("LightMyire", "TheDoors", 2766670);
+Songs TheDoors = new Songs("LightMyire", "TheDoors", 2766670);
 //theDoors.print();
 
 songs = new ArrayList<Songs>();

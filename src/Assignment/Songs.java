@@ -15,7 +15,7 @@ public class Songs {
      //print method
      public void print()
      {
-        System.out.println("\tsongname: "+this.songname + "\tartistname:   "+this.artistname+ "\tplaycount: "+this.playcount);
+        System.out.println("\tsongname:   "+this.songname +                  "\tartistname:         "+this.artistname+       "\tplaycount:      "+this.playcount);
      
      }
    public String remove(int i) {
