@@ -16,7 +16,7 @@ public class Program
         System.out.println(ConsoleColours.CONSOLE_CLEAR);
 
         System.out.println("==================================");
-        System.out.println("Jazeena's Song Lists");
+        System.out.println("Songs List");
         System.out.println("==================================");
         System.out.println();
         System.out.println(" CO452/2 programming Concepts ");
